@@ -1,0 +1,29 @@
+.display-container {
+  background-color: aliceblue;
+  border: solid 2px lightblue;
+  text-align: center;
+  margin-top: 10px;
+
+  .title {
+    text-decoration: underline;
+  }
+
+  div {
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 0;
+    width: 700px;
+    height: 100px;
+    font-size: 20px;
+    overflow: hidden;
+    
+    p {
+      font-family: monospace;
+      margin: 0;
+      padding: 2px;
+      text-align: left;
+    }
+  }
+  
+}

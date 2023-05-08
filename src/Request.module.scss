@@ -1,0 +1,14 @@
+.request-container {
+  background-color: aliceblue;
+  border: solid 2px lightblue;
+  text-align: center;
+  margin-top: 10px;
+
+  .title {
+    text-decoration: underline;
+  }
+
+  .post {
+    background-color: white;
+  }
+}

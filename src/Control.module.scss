@@ -1,0 +1,35 @@
+.control-container {
+  background-color: aliceblue;
+  border: solid 2px lightblue;
+  text-align: center;
+
+  .title {
+    text-decoration: underline;
+  }
+
+  .button-container {
+    text-align: center;
+    user-select: none;
+    
+    span {
+      display: inline-block;
+      width: 100px;
+      background-color: mediumturquoise;
+      padding: 13px;
+      margin: 0 7px;
+      border-radius: 15px;
+      
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  textarea {
+    width: 700px;
+    height: 70px;
+    margin: 10px;
+    font-size: 20px;
+    resize: none;
+  }
+}
